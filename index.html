@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventick</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header_bg"
+        style="background-image:linear-gradient(118.98deg, rgba(237,70,144,0.9) -2.11%, rgba(85,34,204,0.9) 63.58%),url('./images/10.png')">
+        <header class="main_header">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg">
+                    <a class="navbar-brand" href="index.html"><img src="./images/8.png" alt="logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li>
+                                <a href="#">Schedule</a>
+                            </li>
+                            <li>
+                                <a href="#">Speakers</a>
+                            </li>
+                            <li>
+                                <a href="#">Ticket</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact</a>
+                            </li>
+
+                        </ul>
+                        <div class="nav_right_menu">
+                            <a class="login_btn common_white_btn" href="#">Login</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <!-- banner sec start -->
+
+        <div class="banner_sec">
+            <div class="container">
+                <div class="banner_sec_wpr">
+                    <div class="banner_sec_main">
+                        <div class="banner_left_img">
+                            <div class="banner_left_img_wpr">
+                                <figure>
+                                    <img src="./images/26.png" alt="banner image">
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="banner_right_text">
+                            <div class="banner_right_text_wpr">
+                                <div class="banner_right_text_top">
+                                    <h1>SBS MTV The Kpop Show Ticket Package</h1>
+                                    <p>Look no further! Our SBS The Show tickets are the simplest way for you to
+                                        experience a live Kpop recording.</p>
+                                </div>
+                                <div class="banner_right_btn">
+                                    <ul>
+                                        <li><a href="#" class="common_white_btn">Get Ticket</a></li>
+                                        <li><a href="#" class="common_white_btn">Learn More</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- search event sec start -->
+
+    <div class="search_event_sec">
+        <div class="container">
+            <div class="search_event_wpr">
+                <div class="search_event_wpr_clm">
+                <div class="search_event_card">
+                    <div class="each_card_text">
+                        <span>Search Event</span>
+                    </div>
+                    <form>
+                        <input type="text" name="searchEvent" id="" placeholder="Konser Jazz">
+                    </form>
+                </div>
+                <div class="place_card">
+                    <div class="each_card_text">
+                        <span>Place</span>
+                    </div>
+                    <form>
+                        <input type="text" name="searchEvent" id="" placeholder="Indonesia">
+                    </form>
+                </div>
+                <div class="time_card">
+                    <div class="each_card_text">
+                        <span>Time</span>
+                    </div>
+                    <form>
+                        <select name="selectDate" id="">
+                            <option value="" selected disabled>Any date</option>
+                            <option value="0" class="each_option">0</option>
+                            <option value="1" class="each_option">1</option>
+                        </select>
+                    </form>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- upcoming event sec start -->
+
+    <div class="upcomingevent_sec">
+        <div class="container">
+            <div class="upcomingevent_sec_wpr">
+                <div class="upcomingevent_header">
+                    <h2>Upcoming Events</h2>
+                    <div class="upcomingevent_header_sort">
+                        <ul>
+                            <li>
+                                <select name="weekdays" id="">
+                                    <option value="" selected disabled>Weekdays</option>
+                                    <option value="0" class="each_option">0</option>
+                                    <option value="1" class="each_option">1</option>
+                                </select>
+                            </li>
+                            <li>
+                                <select name="weekdays" id="">
+                                    <option value="" selected disabled>Event Type</option>
+                                    <option value="0" class="each_option">0</option>
+                                    <option value="1" class="each_option">1</option>
+                                </select>
+                            </li>
+                            <li>
+                                <select name="weekdays" id="">
+                                    <option value="" selected disabled>Any Category</option>
+                                    <option value="0" class="each_option">0</option>
+                                    <option value="1" class="each_option">1</option>
+                                </select>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="upcomingevent_card">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-12 upcomingevent_card_main">
+                            <div class="upcomingevent_each_card">
+                                <figure>
+                                    <img src="./images/1.png" alt="card1">
+                                </figure>
+                                <div class="upcomingevent_each_card_text">
+                                    <div class="each_card_leftDate_text">
+                                        <span>APR</span>
+                                        <span>14</span>
+                                    </div>
+                                    <div class="each_card_rightEvent_text">
+                                        <h4>Wonder Girls 2010 Wonder Girls World Tour San Francisco</h4>
+                                        <p>We'll get you directly seated and inside for you to enjoy the show.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-12 upcomingevent_card_main">
+                            <div class="upcomingevent_each_card">
+                                <figure>
+                                    <img src="./images/2.png" alt="card2">
+                                </figure>
+                                <div class="upcomingevent_each_card_text">
+                                    <div class="each_card_leftDate_text">
+                                        <span>AUG</span>
+                                        <span>20</span>
+                                    </div>
+                                    <div class="each_card_rightEvent_text">
+                                        <h4>JYJ 2011 JYJ Worldwide Concert Barcelona</h4>
+                                        <p>Directly seated and inside for you to enjoy the show.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-12 upcomingevent_card_main">
+                            <div class="upcomingevent_each_card">
+                                <figure>
+                                    <img src="./images/3.png" alt="card3">
+                                </figure>
+                                <div class="upcomingevent_each_card_text">
+                                    <div class="each_card_leftDate_text">
+                                        <span>SEP</span>
+                                        <span>18</span>
+                                    </div>
+                                    <div class="each_card_rightEvent_text">
+                                        <h4>2011 Super Junior SM Town Live '10 World Tour New York City</h4>
+                                        <p>Directly seated and inside for you to enjoy the show.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-12 upcomingevent_card_main">
+                            <div class="upcomingevent_each_card">
+                                <figure>
+                                    <img src="./images/4.png" alt="card4">
+                                </figure>
+                                <div class="upcomingevent_each_card_text">
+                                    <div class="each_card_leftDate_text">
+                                        <span>APR</span>
+                                        <span>14</span>
+                                    </div>
+                                    <div class="each_card_rightEvent_text">
+                                        <h4>Wonder Girls 2010 Wonder Girls World Tour San Francisco</h4>
+                                        <p>We'll get you directly seated and inside for you to enjoy the show.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-12 upcomingevent_card_main">
+                            <div class="upcomingevent_each_card">
+                                <figure>
+                                    <img src="./images/5.png" alt="card5">
+                                </figure>
+                                <div class="upcomingevent_each_card_text">
+                                    <div class="each_card_leftDate_text">
+                                        <span>AUG</span>
+                                        <span>20</span>
+                                    </div>
+                                    <div class="each_card_rightEvent_text">
+                                        <h4>JYJ 2011 JYJ Worldwide Concert Barcelona</h4>
+                                        <p>Directly seated and inside for you to enjoy the show.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-12 upcomingevent_card_main">
+                            <div class="upcomingevent_each_card">
+                                <figure>
+                                    <img src="./images/6.png" alt="card6">
+                                </figure>
+                                <div class="upcomingevent_each_card_text">
+                                    <div class="each_card_leftDate_text">
+                                        <span>SEP</span>
+                                        <span>18</span>
+                                    </div>
+                                    <div class="each_card_rightEvent_text">
+                                        <h4>2011 Super Junior SM Town Live '10 World Tour New York City</h4>
+                                        <p>Directly seated and inside for you to enjoy the show.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="load_more_btn">
+                    <a href="#" class="blue_btn">Load More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- make your own sec start -->
+
+    <div class="makeYourOwn_sec">
+        <div class="container">
+            <div class="makeYourOwn_sec_wpr">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12 makeYourOwn_sec_clm">
+                        <div class="makeYourOwn_sec_leftImg">
+                            <figure>
+                                <img src="./images/7.png" alt="makeYourOwn_sec_img">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 makeYourOwn_sec_clm">
+                        <div class="makeYourOwn_sec_rightText">
+                            <div class="makeYourOwn_rightText_top">
+                                <h3>Make your own Event</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                            </div>
+                            <div class="makeYourOwn_rightText_btn">
+                                <a href="#" class="pink_btn">Create Events</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- join this brand sec start -->
+
+    <div class="joinThis_brand_sec">
+        <div class="container">
+            <div class="joinThis_brand_sec_wpr">
+                <div class="joinThis_brand_sec_header">
+                    <h3>Join these brands</h3>
+                    <p>We've had the pleasure of working with industry-defining brands. These are just some of them.</p>
+                </div>
+                <div class="joinThis_brand_sec_brand">
+                    <div class="brand_wpr">
+                        <figure class="each_brand">
+                            <img src="./images/11.png" alt="">
+                        </figure>
+                    </div>
+                    <div class="brand_wpr">
+                        <figure class="each_brand">
+                            <img src="./images/12.png" alt="">
+                        </figure>
+                    </div>
+                    <div class="brand_wpr">
+                        <figure class="each_brand">
+                            <img src="./images/13.png" alt="">
+                        </figure>
+                    </div>
+                    <div class="brand_wpr">
+                        <figure class="each_brand">
+                            <img src="./images/14.png" alt="">
+                        </figure>
+                    </div>
+                    <div class="brand_wpr">
+                        <figure class="each_brand">
+                            <img src="./images/15.png" alt="">
+                        </figure>
+                    </div>
+                    <div class="brand_wpr">
+                        <figure class="each_brand">
+                            <img src="./images/16.png" alt="">
+                        </figure>
+                    </div>
+                    <div class="brand_wpr">
+                        <figure class="each_brand">
+                            <img src="./images/17.png" alt="">
+                        </figure>
+                    </div>
+                    <div class="brand_wpr">
+                        <figure class="each_brand">
+                            <img src="./images/18.png" alt="">
+                        </figure>
+                    </div>
+                    <div class="brand_wpr">
+                        <figure class="each_brand">
+                            <img src="./images/19.png" alt="">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- blog sec start -->
+
+    <div class="blog_sec">
+        <div class="container">
+            <div class="blog_sec_wpr">
+                <div class="blog_sec_header">
+                    <h3>Blog</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                </div>
+                <div class="blog_sec_card">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-12 blog_sec_main_card">
+                            <a href="#" class="blog_sec_main_card_img">
+                                <img src="./images/20.png" alt="blogCard1">
+                            </a>
+                            <div class="blog_sec_card_text">
+                                <h4><a href="#">6 Strategies to Find Your Conference Keynote and Other Speakers</a></h4>
+                                <p>Sekarang, kamu bisa produksi tiket fisik untuk eventmu bersama Bostiketbos. Hanya
+                                    perlu
+                                    mengikuti beberapa langkah mudah.
+                                </p>
+                                <span>12 Mar - Jhon Doe</span>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-12 blog_sec_main_card">
+                            <a href="#" class="blog_sec_main_card_img">
+                                <img src="./images/21.png" alt="blogCard1">
+                            </a>
+                            <div class="blog_sec_card_text">
+                                <h4><a href="#">How Successfully Used Paid Marketing to Drive Incremental Ticket Sales</a></h4>
+                                <p>Sekarang, kamu bisa produksi tiket fisik untuk eventmu bersama Bostiketbos. Hanya
+                                    perlu mengikuti beberapa langkah mudah.
+                                </p>
+                                <span>12 Mar - Jhon Doe</span>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-12 blog_sec_main_card">
+                            <a href="#" class="blog_sec_main_card_img">
+                                <img src="./images/22.png" alt="blogCard1">
+                            </a>
+                            <div class="blog_sec_card_text">
+                                <h4><a href="#">Introducing Workspaces: Work smarter, not harder with new navigation</a></h4>
+                                <p>Sekarang, kamu bisa produksi tiket fisik untuk eventmu bersama Bostiketbos. Hanya
+                                    perlu mengikuti beberapa langkah mudah.
+                                </p>
+                                <span>12 Mar - Jhon Doe</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog_sec_btn">
+                    <a href="#" class="blue_btn">Load More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer sec start -->
+
+    <footer class="footer_sec">
+        <div class="container">
+            <div class="footer_sec_wpr">
+                <div class="main_footer">
+                    <div class="main_footer_card1">
+                        <div class="main_footer_card1_logo">
+                            <a href="index.html">
+                                <img src="./images/8.png" alt="footerLogo">
+                            </a>
+                        </div>
+                        <div class="main_footer_card1_text">
+                            <p>Eventick is a global self-service ticketing platform for live experiences that allows
+                                anyone
+                                to create, share, find and attend events that fuel their passions and enrich their
+                                lives.
+                            </p>
+                        </div>
+
+                        <div class="main_footer_card1_icon">
+                            <a href="#">
+                                <img src="./images/23.png" alt="facebook">
+                            </a>
+                            <a href="#">
+                                <img src="./images/24.png" alt="twitter">
+                            </a>
+                            <a href="#">
+                                <img src="./images/25.png" alt="linkdin">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="main_footer_card2">
+                        <div class="main_footer_card2_header">
+                            <h3 class="footer_header">Plan Events</h3>
+                        </div>
+                        <div class="main_footer_card2_link">
+                            <ul class="footer_list_item">
+                                <li>
+                                    <a href="#" class="footer_link">Create and Set Up</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer_link">Sell Tickets</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer_link">Online RSVP</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer_link">Online Events</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="main_footer_card3">
+                        <div class="main_footer_card3_header">
+                            <h3 class="footer_header">Eventick</h3>
+                        </div>
+                        <div class="main_footer_card2_link">
+                            <ul class="footer_list_item">
+                                <li>
+                                    <a href="#" class="footer_link">About Us</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer_link">Press</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer_link">Contact Us</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer_link">Help Center</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer_link">How it Works</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer_link">Privacy</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer_link">Terms</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="main_footer_card4">
+                        <div class="main_footer_card4_header">
+                            <h3 class="footer_header">Stay In The Loop</h3>
+                        </div>
+                        <div class="main_footer_card4_text">
+                            <p>Join our mailing list to stay in the loop with our newest for Event and concert</p>
+                        </div>
+                        <form>
+                            <div class="main_footer_card4_form">
+                                <input type="email" name="emailId" id="" placeholder="Enter your email address..">
+                                <input type="submit" value="Subscibe Now" class="pink_btn">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="sub_footer">
+                    <p>Copyright © 2022 Avi Yansah</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
